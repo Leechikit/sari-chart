@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
-    "vue": "^2.6.10"
+    "echarts": "^4.6.0",
+    "element-ui": "^2.13.0",
+    "vue": "^2.6.10",
+    "vue-echarts": "^5.0.0-beta.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -25,14 +28,5 @@
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,vue}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
   }
 }
